@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#while true; do
+#	# Log stderror to a file
+#	dwm 2> .dwm.log
+#	echo $? > hello.txt
+#	if [ $? -eq 0 ]; then
+#		exit 0
+#	fi
+#done
+
+while ! dwm 2> .dwm.log; do
+	:
+done
