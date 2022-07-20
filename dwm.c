@@ -1382,8 +1382,6 @@ run(void)
 	while (running && !XNextEvent(dpy, &ev))
 		if (handler[ev.type])
 			handler[ev.type](&ev); /* call handler */
-	printf("Hello World");
-	return 1;
 }
 
 void
