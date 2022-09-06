@@ -1,0 +1,5 @@
+dwm-bar-height
+dwm-colorbar
+dwm-fixborders
+dwm-tilegap
+
